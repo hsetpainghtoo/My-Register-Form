@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+
+        .content{
+            margin: 180px 600px;
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 400px;
+            background-color: white;
+        }
+
+        .title{
+            text-align: center;
+            font: bold;
+            font-size: 30px;
+            padding: 10px 0px;
+            margin-top: 20px;
+            color: blueviolet;
+        }
+
+        label{
+            display: block;
+        }
+
+        .input-group input{
+            margin-top: 4px;
+            width: 89%;
+            padding: 17px;
+            border: 1px solid blueviolet;
+            border-radius: 8px;
+        }
+
+        .input-group label{
+            font-size: 18px;
+            margin-top: 15px;
+        }
+
+        .input-group{
+            margin: 0px 25px;
+        }
+
+        .checkbox-group{
+            margin-left: 8px;
+            padding: 15px;
+        }
+
+        span{
+            color: blueviolet;
+        }
+
+        .footer-group{
+            text-align: center;
+            padding: 15px;
+        }
+
+        .button-group{
+            text-align: center;
+            width: 85%;
+            margin: 0px 30px;
+            border: none;
+            background-color: blueviolet;
+            color: white;
+            font-size: 25px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .button-group:hover{
+            background-color: red;
+        }
+
+        .button-group:focus{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="title">Sign Up</div>
+        <div class="input-group">
+            <label for="">Username :</label>
+            <input type="text">
+        </div>
+        <div class="input-group">
+            <label for="">Email :</label>
+            <input type="email">
+        </div>
+        <div class="input-group">
+            <label for="">Password :</label>
+            <input type="password">
+        </div>
+        <div class="input-group">
+            <label for="">Password Again :</label>
+            <input type="password">
+        </div>
+        <div class="checkbox-group">
+            <input type="checkbox">I agree with <span>the terms of services</span>
+        </div>
+        <div>
+            <button class="button-group">Register</button>
+        </div>
+        <div class="footer-group">
+            Already a member?
+            <span>Login Here</span>
+        </div>
+    </div>
+</body>
+</html>
